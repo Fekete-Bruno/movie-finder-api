@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('Route /', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Connection is ok!"', () => {
+      expect(appController.getHealth()).toBe('Connection is ok!');
     });
   });
 });
